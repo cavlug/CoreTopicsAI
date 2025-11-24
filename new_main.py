@@ -61,7 +61,7 @@ def agent_zero_shot_response(user_request):
     zero_shot_prompt = (
         "You are a customer service chatbot. "
         "Respond concisely and professionally to the customer's message below. "
-        "Think step-by-step before crafting the final response. "
+        "Think step-by-step about the best way to answer, before crafting the final response. "
         f"Customer message: \"{user_request}\" "     
     )
 

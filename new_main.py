@@ -1,7 +1,6 @@
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
-import re
 
 # Load environment variables from .env file
 load_dotenv()
